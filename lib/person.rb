@@ -34,6 +34,7 @@ class Person
      elsif @hygiene < 0
        @hygiene = 0
      end
+   end
 
   def happy?
       @happiness > 7
@@ -84,6 +85,6 @@ class Person
     'blah blah blah blah blah'
 
   end
-end
-end
+ end
+
 end
