@@ -45,23 +45,18 @@ attr_reader :name, :happiness, :hygiene
 
   def take_bath
     self.hygiene += 4
-    # hygiene=(self.hygiene)
     '♪ Rub-a-dub just relaxing in the tub ♫'
   end
 
   def work_out
     self.hygiene -= 3
-    # hygiene=(self.hygiene)
     self.happiness += 2
-    # happiness=(self.happiness)
     '♪ another one bites the dust ♫'
   end
 
   def call_friend(friend)
     self.happiness += 3
     friend.happiness += 3
-    # happiness=(self.happiness)
-    # happiness=(friend.happiness)
     "Hi #{friend.name}! It's #{self.name}. How are you?"
   end
 
@@ -69,14 +64,10 @@ attr_reader :name, :happiness, :hygiene
     if topic == 'politics'
       self.happiness -= 2
       person.happiness -= 2
-      # happiness=(self.happiness)
-      # happiness=(friend.happiness)
       'blah blah partisan blah lobbyist'
     elsif topic == 'weather'
       self.happiness += 1
       person.happiness += 1
-      # happiness=(self.happiness)
-      # happiness=(friend.happiness)
       'blah blah sun blah rain'
     else
       'blah blah blah blah blah'
