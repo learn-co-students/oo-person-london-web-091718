@@ -75,3 +75,5 @@ attr_reader :name, :happiness, :hygiene
   end
 
 end
+
+# binding.pry
