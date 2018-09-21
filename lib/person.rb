@@ -22,7 +22,7 @@ def min_max_happiness
   end
 end
 
-def hygiene=(points)
+def hygiene(points)
   @hygiene=points
   if self.hygiene > 10
     self.hygiene = 10
