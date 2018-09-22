@@ -79,7 +79,7 @@ class Person
       p "blah blah sun blah rain"
     else
       "blah blah blah blah blah"
-  
+
 
     end
   end
