@@ -84,6 +84,8 @@ attr_accessor :bank_account, :happiness, :hygiene
     end
   end
 
+  # 
+
 
 
 
